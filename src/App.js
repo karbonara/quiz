@@ -7,7 +7,7 @@ function Result({ correct }) {
     <div className="result">
       <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" alt='Картинка' />
       <h2>Вы отгадали {correct} ответа из {questions.length}</h2>
-      <button>Попробовать снова</button>
+      <a href='/'> <button>Попробовать снова</button> </a>
     </div>
   );
 }
@@ -46,6 +46,9 @@ function App() {
 
   return (
     <div className="App">
+      {
+        step !== questions.length ? <h1>Тест: какой у вас уровень английского? Проверьте прямо сейчас</h1> : ''
+      }
       {
         step !== questions.length ?
           <Game question={question} onClickVariant={onClickVariant} step={step} />

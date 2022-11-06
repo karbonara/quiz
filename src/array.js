@@ -1,20 +1,31 @@
 export const questions = [
   {
-    title: 'React - это ... ?',
-    variants: ['библиотека', 'фреймворк', 'приложение'],
+    title: 'The Weeknd`s "Save Your Tears" <…> the most popular 2021 music video on Vevo',
+    variants: ['is', 'are', 'have', 'does'],
     correct: 0,
   },
   {
-    title: 'Компонент - это ... ',
-    variants: ['приложение', 'часть приложения или страницы', 'то, что я не знаю что такое'],
-    correct: 1,
+    title: 'Many singers streamed <…> online concerts for people all around the world',
+    variants: ['his', 'its', 'your', 'their'],
+    correct: 3,
   },
   {
-    title: 'Что такое JSX?',
+    title: 'I love Taylor Swift’s new album, at the moment I <…> to it on repeat',
     variants: [
-      'Это простой HTML',
-      'Это функция',
-      'Это тот же HTML, но с возможностью выполнять JS-код',
+      'am listen',
+      'listening',
+      'listens',
+      'am listening'
+    ],
+    correct: 3,
+  },
+  {
+    title: 'I don’t <…> watch drama movies, but "King Richard" is pretty good',
+    variants: [
+      'sometimes',
+      'never',
+      'usually',
+      'always'
     ],
     correct: 2,
   },
